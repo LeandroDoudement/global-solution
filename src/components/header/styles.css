@@ -1,0 +1,17 @@
+ul {
+  display: flex;
+  place-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+header {
+  background-color: forestgreen;
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.container-apresentacao {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1% 15%;
+  gap: 1rem;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  display: flex;
+  place-content: center;
+}
+
+.video-responsive iframe {
+  height: 75%;
+  width: 75%;
+  position: absolute;
+}

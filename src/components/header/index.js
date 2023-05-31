@@ -11,16 +11,16 @@ const Header = () => {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/pagina2'>Página 2</Link>
+            <Link to='/dadosdafome'>Dados da fome</Link>
           </li>
           <li>
-            <Link to='/pagina3'>Página 2</Link>
+            <Link to='/inseguranca'>Insegurança Alimentar e Dados Interativos</Link>
           </li>
           <li>
-            <Link to='/pagina4'>Página 2</Link>
+            <Link to='/agricultura'>Agricultura Sustentável e Metas da ODS 2</Link>
           </li>
           <li>
-            <Link to='/pagina5'>Página 2</Link>
+            <Link to='/solucoes'>Soluções Inovadoras para um Futuro Alimentar Sustentável</Link>
           </li>
         </ul>
       </nav>

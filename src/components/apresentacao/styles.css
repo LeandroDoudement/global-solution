@@ -9,7 +9,7 @@
 
 .video-responsive {
   overflow: hidden;
-  padding-bottom: 56.25%;
+  padding-bottom: 50%;
   position: relative;
   height: 0;
   display: flex;
@@ -20,4 +20,10 @@
   height: 75%;
   width: 75%;
   position: absolute;
+}
+
+.apresentacao-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
 }

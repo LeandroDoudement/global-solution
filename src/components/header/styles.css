@@ -14,4 +14,6 @@ a {
 header {
   background-color: forestgreen;
   width: 100%;
+  position: fixed;
+  padding: 15px;
 }

@@ -1,8 +1,9 @@
 .slider-container {
   min-height: 800px;
+  max-height: 1250px;
   width: 100%;
   background-color: black;
-  background-image: url('../../../public/images/fome-1.jpg');
+  background-image: url('../../../public/images/fome-background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

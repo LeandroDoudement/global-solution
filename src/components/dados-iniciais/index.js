@@ -6,9 +6,10 @@ const DadosIniciais = ({ title, text }) => {
         <>
       <div className='container-apresentacao'>
         <h1>{title}</h1>
-        <p className='apresentacao-text'>
-          {text}
-        </p>
+        <p
+          className='apresentacao-text'
+          dangerouslySetInnerHTML={{ __html: text }}
+        ></p>
       </div>
     </>
     )

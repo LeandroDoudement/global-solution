@@ -14,13 +14,27 @@ const Header = () => {
             <Link to='/dadosdafome'>Dados da fome</Link>
           </li>
           <li>
-            <Link to='/inseguranca'>Insegurança Alimentar e Dados Interativos</Link>
+            <Link to='/inseguranca'>
+              Insegurança Alimentar e Dados Interativos
+            </Link>
           </li>
           <li>
-            <Link to='/agricultura'>Agricultura Sustentável e Metas da ODS 2</Link>
+            <img
+              src='/images/hunger-symbol.png'
+              alt='Imagem representando fome'
+              height={'50px'}
+              width={'50px'}
+            />
           </li>
           <li>
-            <Link to='/solucoes'>Soluções Inovadoras para um Futuro Alimentar Sustentável</Link>
+            <Link to='/agricultura'>
+              Agricultura Sustentável e Metas da ODS 2
+            </Link>
+          </li>
+          <li>
+            <Link to='/solucoes'>
+              Soluções Inovadoras para um Futuro Alimentar Sustentável
+            </Link>
           </li>
         </ul>
       </nav>

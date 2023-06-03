@@ -1,8 +1,13 @@
 ul {
   display: flex;
-  place-content: space-around;
+  justify-content: space-around;
   list-style: none;
   margin: 0;
+  padding: 0;
+}
+
+li {
+  align-self: center;
 }
 
 a {
@@ -17,4 +22,28 @@ header {
   background-color: forestgreen;
   width: 100%;
   height: 50px;
+}
+
+@media (max-width: 1600px) {
+  a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900px) {
+  a {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 600px) {
+  a {
+    font-size: 5px;
+  }
 }

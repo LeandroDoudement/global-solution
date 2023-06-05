@@ -8,3 +8,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media (max-width: 1200px) {
+  .slider-container {
+    min-height: 310px;
+  }
+}

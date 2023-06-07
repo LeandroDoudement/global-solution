@@ -32,3 +32,9 @@
 .next-button {
   right: 10px;
 }
+
+@media (max-width: 900px) {
+  .carrossel-image {
+    min-height: 310px;
+  }
+}
